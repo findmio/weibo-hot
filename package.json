@@ -1,0 +1,24 @@
+{
+  "name": "weibo-hot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.7",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "typescript": "^4.9.4"
+  }
+}
