@@ -2,7 +2,7 @@ name: schedule
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "* * * * *"
 
 jobs:
   build:
@@ -58,4 +58,4 @@ jobs:
           git pull --rebase
           git add .
           git commit -m "update by github action"
-          git push
+          git push origin -u main
